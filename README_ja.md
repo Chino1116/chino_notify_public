@@ -52,6 +52,80 @@ ChinoNotify はクロスプラットフォームの通知ソフトウェアで�
 
 # <font color="#4671bb">デプロイチュートリアル</font>
 
+## Webhook 呼び出し例
+
+以下の方法でサーバーの Webhook インターフェースを呼び出して通知を送信できます：
+
+### Curl
+
+```bash
+curl -X POST http://your-server:5000/webhook \
+  -H "Authorization: Bearer your-token" \
+  -H "Content-Type: application/json" \
+  -d '{"title": "通知タイトル", "content": "通知内容"}'
+```
+
+### JavaScript (Node.js)
+
+```javascript
+fetch('http://your-server:5000/webhook', {
+  method: 'POST',
+  headers: {
+    'Authorization': 'Bearer your-token',
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    title: '通知タイトル',
+    content: '通知内容'
+  })
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.error('Error:', error));
+```
+
+### PHP
+
+```php
+<?php
+$url = 'http://your-server:5000/webhook';
+$data = array('title' => '通知タイトル', 'content' => '通知内容');
+$options = array(
+    'http' => array(
+        'header'  => "Authorization: Bearer your-token\r\nContent-Type: application/json",
+        'method'  => 'POST',
+        'content' => json_encode($data),
+    ),
+);
+$context  = stream_context_create($options);
+$result = file_get_contents($url, false, $context);
+if ($result === FALSE) {
+    echo "Error";
+} else {
+    echo $result;
+}
+?>
+```
+
+### Python
+
+```python
+import requests
+
+url = 'http://your-server:5000/webhook'
+headers = {
+    'Authorization': 'Bearer your-token',
+    'Content-Type': 'application/json'
+}
+data = {
+    'title': '通知タイトル',
+    'content': '通知内容'
+}
+
+response = requests.post(url, headers=headers, json=data)
+print(response.json())
+```
+
 ## サーバーデプロイ
 
 ### 前提条件
