@@ -1,5 +1,12 @@
 **简体中文** | [English](README_en.md) | [日本語](README_ja.md)
 
+## 客户端下载
+
+- [Android APK](client/ChinoNotify_android.apk)
+- [iOS IPA](client/ChinoNotify_ios.ipa)
+- [Windows x64 ZIP](client/ChinoNotify_windows_x64.zip)
+- ### [全端 123 云盘下载](https://www.123865.com/s/Cbj7Vv-RPxuA)
+
 # 声明
 
 0. 本项目禁止商业使用。<br>
@@ -37,13 +44,6 @@ ChinoNotify 是一个跨平台的通知软件，支持 Android、iOS 和 Windows
 <img src="screenshot_3.png" width="300"/>
 <img src="screenshot_4.png" width="300"/>
 </center>
-
-## 客户端下载
-
-- [Android APK](client/ChinoNotify_android.apk)
-- [iOS IPA](client/ChinoNotify_ios.ipa)
-- [Windows x64 ZIP](client/ChinoNotify_windows_x64.zip)
-- ### [全端 123 云盘下载](https://www.123865.com/s/Cbj7Vv-RPxuA)
 
 ## 下面或许是废话
 
@@ -84,4 +84,4 @@ python run.py
 
 ### Star 趋势
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Chino1116/chino_blog_public&type=date&legend=top-left)](https://www.star-history.com/#Chino1116/chino_blog_public&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=Chino1116/chino_notify_public&type=date&legend=top-left)](https://www.star-history.com/#Chino1116/chino_notify_public&type=date&legend=top-left)

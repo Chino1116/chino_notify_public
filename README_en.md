@@ -1,5 +1,12 @@
 **English** | [简体中文](README.md) | [日本語](README_ja.md)
 
+## Client Downloads
+
+- [Android APK](client/ChinoNotify_android.apk)
+- [iOS IPA](client/ChinoNotify_ios.ipa)
+- [Windows x64 ZIP](client/ChinoNotify_windows_x64.zip)
+- ### [All Platforms 123 Cloud Download](https://www.123865.com/s/Cbj7Vv-RPxuA)
+
 # Disclaimer
 
 0. Commercial use of this project is prohibited.<br>
@@ -37,13 +44,6 @@ ChinoNotify is a cross-platform notification software that supports Android, iOS
 <img src="screenshot_3.png" width="300"/>
 <img src="screenshot_4.png" width="300"/>
 </center>
-
-## Client Downloads
-
-- [Android APK](client/ChinoNotify_android.apk)
-- [iOS IPA](client/ChinoNotify_ios.ipa)
-- [Windows x64 ZIP](client/ChinoNotify_windows_x64.zip)
-- ### [All Platforms 123 Cloud Download](https://www.123865.com/s/Cbj7Vv-RPxuA)
 
 ## Perhaps some rambling below
 
@@ -84,4 +84,4 @@ In the client software, set the server address to your deployment address.
 
 ### Star Trend
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Chino1116/chino_blog_public&type=date&legend=top-left)](https://www.star-history.com/#Chino1116/chino_blog_public&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=Chino1116/chino_notify_public&type=date&legend=top-left)](https://www.star-history.com/#Chino1116/chino_notify_public&type=date&legend=top-left)
